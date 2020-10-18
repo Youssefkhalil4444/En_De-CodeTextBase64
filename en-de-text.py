@@ -15,7 +15,7 @@ while True :
         encode_text = input("Enter Your Text For Encode It >> : ")
         encode_hash = base64.b64encode(encode_text.encode('UTF-8')).decode('ascii')
         print("--------------------------------")
-        print("Doen : "+ encode_hash)
+        print("Done : "+ encode_hash)
         print("----------------------------------")
     elif num == "2":
         decode_text = input("Enter Your Hash For Decode It >> :")
